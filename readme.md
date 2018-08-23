@@ -2,7 +2,9 @@
 
 Dataset for the paper Analysis of the influence of imaging-related uncertainties on cerebral aneurysm deformation quantification using a no-deformation physical flow phantom.
 
-Due to the large amount of data, the data was uploaded to an external server: Download link for CAPUT image dataset]()
+Due to the large amount of data, the data was uploaded to an external server:
+
+[Download link for CAPUT image dataset]()
 
 ![](image.jpg)
 
@@ -23,17 +25,19 @@ The inlet/oulet structures and the ground_plate are in the top folder.
 
 ```
 ├── Phantom
-|     ├── ground_plate.stl
-|     ├── inlet.stl
-|     ├── Deformative_Structures
-|     |    ├── 3 mm
-|     |    |     ├── fusiformAneurysm.stl
-|     |    |     ├── saccularAneurysm.stl
-|     |    |     └── straightTube.stl
-|     |    └── 4 mm
-|     |          ├── fusiformAneurysm.stl
-|     |          ├── saccularAneurysm.stl
-|     |          └── straightTube.stl
+      ├── ground_plate.stl
+      |
+      ├── inlet.stl
+      |
+      └── Deformative_Structures
+            ├── 3 mm
+            |     ├── fusiformAneurysm.stl
+            |     ├── saccularAneurysm.stl
+            |     └── straightTube.stl
+            └── 4 mm
+                  ├── fusiformAneurysm.stl
+                  ├── saccularAneurysm.stl
+                  └── straightTube.stl
 ```
 
 ### FPCT DATA
@@ -47,13 +51,28 @@ All original image data and the calculated edge information are saved as NIfTI (
 |
 ├── 4mm_fusiformAneurysm
 |   ├── Data
+|   |     ├── FLUSSPHANTOM_V3_t000.nii
+|   |     ├── FLUSSPHANTOM_V3_t001.nii
+|   |     ├── FLUSSPHANTOM_V3_t002.nii
+|   |     ├── ...
 |   └── Edges
+|   |     └── edges.nii
 ├── 4mm_saccularAneurysm
 |   ├── Data
+|   |     ├── FLUSSPHANTOM_V3_t000.nii
+|   |     ├── FLUSSPHANTOM_V3_t001.nii
+|   |     ├── FLUSSPHANTOM_V3_t002.nii
+|   |     ├── ...
 |   └── Edges
+|   |     └── edges.nii
 ├── 4mm_straightTube
 |   ├── Data
+|   |     ├── FLUSSPHANTOM_V3_t000.nii
+|   |     ├── FLUSSPHANTOM_V3_t001.nii
+|   |     ├── FLUSSPHANTOM_V3_t002.nii
+|   |     ├── ...
 |   └── Edges
+|   |     └── edges.nii
 ...
 ```
 
@@ -65,14 +84,11 @@ All original image data and the calculated edge information are saved as NIfTI (
 ├── data_description.md
 |
 ├── 4mm_fusiformAneurysm
-|   ├── Data
-|   └── edgepoints.txt
 ├── 4mm_saccularAneurysm
-|   ├── Data
-|   └── edgepoints.txt
 ├── 4mm_straightTube
-|   ├── Data
-|   └── edgepoints.txt
+├── 3mm_fusiformAneurysm
+├── 3mm_saccularAneurysm
+└── 3mm_straightTube
 ...
 ```
 
