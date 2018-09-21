@@ -19,16 +19,13 @@ http://doi.org/10.1038/s41598-018-29282-0
 
 ### Phantom structures
 
-The main phantom structures are stored under "Deformative_Structures".
-
-The inlet/oulet structures and the ground_plate are in the top folder.
+The phantom structures are stored in this repository.
+The file structure is detailed below.
 
 ```
 ├── Phantom
       ├── ground_plate.stl
-      |
       ├── inlet.stl
-      |
       └── Deformative_Structures
             ├── 3 mm
             |     ├── fusiformAneurysm.stl
@@ -40,11 +37,9 @@ The inlet/oulet structures and the ground_plate are in the top folder.
                   └── straightTube.stl
 ```
 
-### FPCT DATA
+### FPCT data file structure
 
 All original image data and the calculated edge information are saved as NIfTI (.nii) files.
-
-[Link for the FPCT Data]()
 
 ```
 ├── data_description.md
@@ -77,12 +72,9 @@ All original image data and the calculated edge information are saved as NIfTI (
 ```
 
 
-### VIDEO DATA
+### Video data file structure
 
-[Link for the video data]()
 ```
-├── data_description.md
-|
 ├── 4mm_fusiformAneurysm
 ├── 4mm_saccularAneurysm
 ├── 4mm_straightTube
