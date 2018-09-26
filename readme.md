@@ -9,10 +9,8 @@ Due to the large amount of data, the data was uploaded to an external server:
 ![](image.jpg)
 
 ```
-Schetelig, D., Sedlacik, J., Fiehler, J., Frölich, A., Knopp, T., Sothmann, T., Werner, R. (2018).
-Analysis of the influence of imaging-related uncertainties on cerebral aneurysm deformation quantification using a no-deformation physical flow phantom.
-Scientific Reports, 8, 11004.
-http://doi.org/10.1038/s41598-018-29282-0
+Schetelig, D., Frölich, A., Knopp, T., and Werner, R. (2018).
+A new benchmark dataset (CAPUT) for validation of image-based cerebral vessel and aneurysm deformation estimation algorithms
 ```
 
 ## Folder / file structures
@@ -50,24 +48,24 @@ All original image data and the calculated edge information are saved as NIfTI (
 |   |     ├── FLUSSPHANTOM_V3_t001.nii
 |   |     ├── FLUSSPHANTOM_V3_t002.nii
 |   |     ├── ...
-|   └── Edges
-|   |     └── edges.nii
+|   └── Landmarks
+|   |     └── landmarks.nii
 ├── 4mm_saccularAneurysm
 |   ├── Data
 |   |     ├── FLUSSPHANTOM_V3_t000.nii
 |   |     ├── FLUSSPHANTOM_V3_t001.nii
 |   |     ├── FLUSSPHANTOM_V3_t002.nii
 |   |     ├── ...
-|   └── Edges
-|   |     └── edges.nii
+|   └── Landmarks
+|   |     └── landmarks.nii
 ├── 4mm_straightTube
 |   ├── Data
 |   |     ├── FLUSSPHANTOM_V3_t000.nii
 |   |     ├── FLUSSPHANTOM_V3_t001.nii
 |   |     ├── FLUSSPHANTOM_V3_t002.nii
 |   |     ├── ...
-|   └── Edges
-|   |     └── edges.nii
+|   └── Landmarks
+|   |     └── landmarks.nii
 ...
 ```
 
