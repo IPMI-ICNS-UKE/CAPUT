@@ -1,5 +1,7 @@
+# Registration Call
+```
 #!/bin/bash
-AntsExecutable="/Users/dgs/BUILDS/ants/bin/bin/antsRegistration"
+AntsExecutable="path_to_ants_excecutable"
 
 
 DATA_PATH=$1
@@ -45,3 +47,12 @@ done
 echo "registration finished"
 
 exit
+```
+
+# Parameter variation
+
+Three parameters were varied as described below:
+
+- gradient step: 0.5 or 1.0
+- update field variance: 0
+- total field variance: varied between 1.5 and 3.0.
