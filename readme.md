@@ -1,25 +1,33 @@
 # CAPUT dataset
 
-Dataset for the paper Analysis of the influence of imaging-related uncertainties on cerebral aneurysm deformation quantification using a no-deformation physical flow phantom.
+Dataset for the paper "Analysis of the influence of imaging-related uncertainties on cerebral aneurysm deformation quantification using a no-deformation physical flow phantom".
 
 Due to the large amount of data, the data was uploaded to an external server:
 
-[Download link for CAPUT image dataset]()
+[Download link for CAPUT image dataset](https://icns-nas1.uke.uni-hamburg.de/owncloud/index.php/s/pFIfanHSM47SOyM)
 
 ![](image.jpg)
 
 Please cite the following articles if you use our dataset.
 
 ```
-Schetelig, D., Sedlacik, J., Fiehler, J., Frölich, A., Knopp, T., Sothmann, T., Werner, R. (2018).
-Analysis of the influence of imaging-related uncertainties on cerebral aneurysm deformation quantification using a no-deformation physical flow phantom.
-Scientific Reports, 8, 11004.
-http://doi.org/10.1038/s41598-018-29282-0
+@article{Schetelig:2018aa,
+Year = {2018},
+Title = {Analysis of the influence of imaging-related uncertainties on cerebral aneurysm deformation quantification using a no-deformation physical flow phantom},
+Journal = {Scientific Reports},
+Author = {Schetelig, Daniel and Sedlacik, Jan and Fiehler, Jens and Fr{\"o}lich, Andreas and Knopp, Tobias and Sothmann, Thilo and Waschkewitz, Jonathan and Werner, Ren{\'e}},
+Doi = {10.1038/s41598-018-29282-0},
+Number = {1},
+Volume = {8},
+Pages = {11004},
+Ty = {JOUR},
+Url = {https://doi.org/10.1038/s41598-018-29282-0}}
 ```
 
 ```
 Schetelig, D., Frölich, A., Knopp, T., and Werner, R. (2018).
 A new cerebral vessel benchmark dataset (CAPUT) for validation of image-based aneurysm deformation estimation algorithms
+Scientific Reports, 2018
 ```
 
 ## Folder / file structures
