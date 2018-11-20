@@ -10,6 +10,21 @@ Due to the large amount of data, the data was uploaded to an external server:
 
 Please cite the following articles if you use our dataset.
 
+
+```
+@article{Schetelig:2018ab,
+Year = {2018},
+Title = {A new cerebral vessel benchmark dataset {(CAPUT)} for validation of image-based aneurysm deformation estimation algorithms},
+Journal = {Scientific Reports},
+Author = {Schetelig, Daniel and Fr{\"o}lich, Andreas and Knopp, Tobias and Werner, Ren{\'e}},
+Doi = {10.1038/s41598-018-34489-2},
+Number = {1},
+Volume = {8},
+Pages = {15999},
+Ty = {JOUR},
+Url = {https://doi.org/10.1038/s41598-018-34489-2}}
+```
+
 ```
 @article{Schetelig:2018aa,
 Year = {2018},
@@ -22,12 +37,6 @@ Volume = {8},
 Pages = {11004},
 Ty = {JOUR},
 Url = {https://doi.org/10.1038/s41598-018-29282-0}}
-```
-
-```
-Schetelig, D., Frölich, A., Knopp, T., and Werner, R. (2018).
-A new cerebral vessel benchmark dataset (CAPUT) for validation of image-based aneurysm deformation estimation algorithms
-Scientific Reports, 2018
 ```
 
 ## Folder / file structures
