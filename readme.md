@@ -51,14 +51,21 @@ The file structure is detailed below.
       ├── ground_plate.stl
       ├── inlet.stl
       └── Deformative_Structures
-            ├── 3 mm
-            |     ├── fusiformAneurysm.stl
-            |     ├── saccularAneurysm.stl
-            |     └── straightTube.stl
-            └── 4 mm
-                  ├── fusiformAneurysm.stl
-                  ├── saccularAneurysm.stl
-                  └── straightTube.stl
+      |     ├── 3 mm
+      |     |     ├── fusiformAneurysm.stl
+      |     |     ├── saccularAneurysm.stl
+      |     |     └── straightTube.stl
+      |     └── 4 mm
+      |           ├── fusiformAneurysm.stl
+      |           ├── saccularAneurysm.stl
+      |           └── straightTube.stl
+      └── ComputationalFluidDynamics
+            └── experimentNo2
+            └── experimentNo3
+                  ├── sidewall_1
+                  |── sidewall_2
+                  ├── bifurcation_1
+                  └── bifurcation_2
 ```
 
 ### FPCT data file structure
