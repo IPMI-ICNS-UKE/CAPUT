@@ -4,8 +4,6 @@ Dataset for the paper "Analysis of the influence of imaging-related uncertaintie
 
 Due to the large amount of data, the data was uploaded to an external server:
 
-[Download link for CAPUT image dataset](https://icns-nas1.uke.uni-hamburg.de/owncloud/index.php/s/pFIfanHSM47SOyM)
-
 ![](image.jpg)
 
 Please cite the following articles if you use our dataset.
