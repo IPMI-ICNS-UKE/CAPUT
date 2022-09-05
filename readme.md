@@ -2,8 +2,6 @@
 
 Dataset for the paper "Analysis of the influence of imaging-related uncertainties on cerebral aneurysm deformation quantification using a no-deformation physical flow phantom".
 
-Due to the large amount of data, the data was uploaded to an external server:
-
 ![](image.jpg)
 
 Please cite the following articles if you use our dataset.
